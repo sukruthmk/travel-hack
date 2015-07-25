@@ -50,4 +50,15 @@ class utils {
     }
     
 }
+
+/**
+ * Function to get the image path for name and format
+ * @param <string> $name
+ * @param <string> $format
+ * @return <string> path
+ */
+
+function img_path($name, $format = 'jpg') {
+    return 'Layouts/img/' . $name . "." . $format;
+}
 ?>
